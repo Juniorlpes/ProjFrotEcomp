@@ -5,11 +5,12 @@ header {
     }
 
 #capa {
-  width: 260px;
+  height: 150px;
     }
 #imgCapa {
   margin: 0 auto;
-  width: 260px;
+  width: 100%;
+
 }
 
 body{margin: 0 auto;}
