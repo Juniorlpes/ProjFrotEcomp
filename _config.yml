@@ -1,0 +1,85 @@
+# Site settings
+title: NEJ Feira de Santana
+description: Núcleo de Empresas Juniores de Feira de Santana
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "localhost:3000"
+
+# Configurações da Página
+titulo: NEJ Fsa
+descricao: NEJ Feira de Sanatana
+user_title:
+
+imagem: assets/background.png
+imagem_logo: assets/logoicone.png
+imagem_conteudo: assets/background2.png
+imagem_favicon: assets/favicon.png
+
+contato_email: nejfeira.dex@gmail.com
+contato_instagram: https://www.instagram.com/nejfeira/
+contato_facebook: https://www.facebook.com/nejfeira/
+
+cor_padrao: rgb(183, 204, 234)
+
+# Sobre o Evento
+
+sobre:         Empresa júnior é uma associação civil sem fins lucrativos e com fins educacionais formada exclusivamente por alunos do ensino superior ou técnico, regulamentada no Brasil através da Lei 13.267/2016.<br>As empresas juniores são constituídas pela união de alunos matriculados em cursos de graduação em instituições de ensino superior, organizados em uma associação civil com o intuito de realizar projetos e serviços que contribuam para o desenvolvimento do país e de formar profissionais capacitados e comprometidos com esse objetivo. <br> O objetivo primeiro das empresas juniores é desenvolver pessoal e profissionalmente os seus membros por meio da vivência empresarial, realizando projetos e serviços na área de atuação do(s) curso(s) de graduação ao(s) qual(is) a empresa júnior for vinculada. Por esse objetivo entende-se fomentar o crescimento pessoal e profissional do aluno membro, por meio do oferecimento de serviços de qualidade e a baixo custo ao mercado. Dessa forma, além de atingir seu próprio objetivo, as EJs contribuem para o desenvolvimento do empreendedorismo em sua região. Em alta escala, o Movimento das Empresas Juniores (MEJ) contribui com uma importante parcela no desenvolvimento empresarial e econômico do país.
+
+# Patrocinadores
+patrocinadores:
+  - us:
+    nome: Mandacaru Hackerspace
+    imagem: assets/apoio/LogoVer.png
+    link: https://www.instagram.com/mandacaruhs/
+  - us:
+    nome: Mandacaru Hackerspace
+    imagem: assets/apoio/LogoVer.png
+    link: https://www.instagram.com/mandacaruhs/
+# Apoio
+
+apoio:
+  - us:
+    nome: Mandacaru Hackerspace
+    imagem: assets/apoio/LogoVer.png
+    link: https://www.instagram.com/mandacaruhs/
+  - us:
+    nome: Mandacaru Hackerspace
+    imagem: assets/apoio/LogoVer.png
+    link: https://www.instagram.com/mandacaruhs/
+  - us:
+    nome: Mandacaru Hackerspace
+    imagem: assets/apoio/LogoVer.png
+    link: https://www.instagram.com/mandacaruhs/
+
+# Diretores
+diretores:
+  - us:
+    nome: Marcelo Bião
+    imagem: assets/palestrantes/marcelo.png
+    vinculo: Diretoria da Cozinha
+    texto: Sou Master das culinárias do Mandacaru Hackerspace. Faço um ótimo arroz com calabresa, mas esqueço na geladeira por uma semana. 
+  - us:
+    nome: Sérgio Matos
+    imagem: assets/palestrantes/sergio.png
+    vinculo: Diretoria dos Armengues
+    texto: Sou Master dos paranauês do Mandacaru Hackerspace. De vez em quando, eu esqueço de enviar a arte dos eventos.
+  - us:
+    nome: Vitor Cardim
+    imagem: assets/palestrantes/vitor.png
+    vinculo: Diretoria de Marketing
+    texto: Sou Master of Cards do Mandacaru Hackerspace. Comi uma pizza de 3 queijos, fui procurar o banheiro e acabei parando em Uberlândia.
+  - us:
+    nome: Leo Melo
+    imagem: assets/palestrantes/leonardo.png
+    vinculo: Diretoria de Apoios
+    texto: Sou Master arteiro do Mandacaru Hackerspace. Sou o maior nome representante do terraplanismo no globo. 
+  - us:
+    nome: Fábio Bispo
+    imagem: assets/palestrantes/fabio.png
+    vinculo: Presidente
+    texto: Sou CEO do Mandacaru Hackerspace. Procuro meios de invadir a conta do telegram do Ministro da Justiça. Fogo nos racistas!
+
+# Google-analytics
+google-analytics:
+  id: ""
+
+exclude: ['package.json', 'src' , 'node_modules']

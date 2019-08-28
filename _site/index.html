@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<link type="text/css" rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>NEJ Fsa</title>
+  <meta name="description" content="Núcleo de Empresas Juniores de Feira de Santana">
+
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="shortcut icon" type="image/png" href="assets/favicon.png" >
+</head>
+
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: rgb(183, 204, 234)">
+    <a class="navbar-brand ml-5" href="#">
+        <img src="assets/logoicone.png" alt="logosite" style="height: 50px ">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto mr-5">
+            <li class="nav-item active">
+                <a class="nav-link text-light" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="#about">Sobre</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="#contato">
+                    Contato
+                </a>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+  <div id="particles-js" style="background-image: url(assets/background.png)">
+  <div class="header">
+      <h1>
+        <span class="site-title">  </span>
+        <span class="site-description">  </span>
+      </h1>
+      <div class="header-icons" style="margin-top: 370px">
+        <a aria-label="Send email" href="mailto: gdgfsaba@gmail.com"><i class="icon fa fa-envelope"></i></a>
+        <a aria-label="My Instagram" target="_blank" href="https://www.instagram.com/gdgfsaba/?hl=pt"><i class="icon fa fa-instagram"
+                aria-hidden="true"></i></a>
+        <a aria-label="My Facebook" target="_blank" href="https://www.facebook.com/gdgfsaba/"><i class="icon fa fa-facebook"
+                aria-hidden="true"></i></a>
+    </div>
+      <div class="header-links">
+      </div>
+  </div>
+  <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+</div>
+
+  <section id="about">
+    <br>
+    <div class="user-details">
+  <h1>Sobre</h1>
+  <p class="text-justify">Empresa júnior é uma associação civil sem fins lucrativos e com fins educacionais formada exclusivamente por alunos do ensino superior ou técnico, regulamentada no Brasil através da Lei 13.267/2016.<br>As empresas juniores são constituídas pela união de alunos matriculados em cursos de graduação em instituições de ensino superior, organizados em uma associação civil com o intuito de realizar projetos e serviços que contribuam para o desenvolvimento do país e de formar profissionais capacitados e comprometidos com esse objetivo. <br> O objetivo primeiro das empresas juniores é desenvolver pessoal e profissionalmente os seus membros por meio da vivência empresarial, realizando projetos e serviços na área de atuação do(s) curso(s) de graduação ao(s) qual(is) a empresa júnior for vinculada. Por esse objetivo entende-se fomentar o crescimento pessoal e profissional do aluno membro, por meio do oferecimento de serviços de qualidade e a baixo custo ao mercado. Dessa forma, além de atingir seu próprio objetivo, as EJs contribuem para o desenvolvimento do empreendedorismo em sua região. Em alta escala, o Movimento das Empresas Juniores (MEJ) contribui com uma importante parcela no desenvolvimento empresarial e econômico do país.</p>
+</div>
+
+
+ 
+  </section>
+  
+  <section id="diretores">
+    <br>
+    <!--Carousel Wrapper-->
+
+
+<h1 style="text-align: center">Diretoria</h1>
+<div style="background-image: url(assets/background2.png);background-attachment: fixed;">
+    
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content text-center">
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+
+                <div class="modal-body"></div>
+                <h3 class="modal-title text-center col-md-12" id="exampleModalLabel"></h3>
+                <h4 class="modal-subtitle text-center"></h4>
+                <div class="modal-text text-justify"></div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        
+        <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+            <!--Controls->
+            <div class="controls-top">
+                <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i
+                        class="icon fa fa-chevron-left"></i></a>
+                <a class="btn-floating" href="#multi-item-example" data-slide="next"><i
+                        class="icon fa fa-chevron-right"></i></a>
+            </div>
+
+            <!--/.Controls-->
+
+            <!--Controls-->
+        <a class="carousel-control-prev" href="#multi-item-example" role="button" data-slide="prev" style="margin-left: -10%; width: 120px">
+            <span class="icon fa fa-chevron-left text-danger" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#multi-item-example" role="button" data-slide="next" style="margin-right: -10%; width: 120px">
+            <span class="icon fa fa-chevron-right text-danger" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        <!--/.Controls-->
+
+            <!--Indicators->
+        <ol class="carousel-indicators">
+            <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+            <li data-target="#multi-item-example" data-slide-to="1"></li>
+        </ol>
+        <!--/.Indicators-->
+
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+
+                <!--First slide-->
+                <div class="carousel-item active">
+                    <div class="row">
+                        
+                        
+                        
+
+                        <div class="col-md-3">
+                            <a class="card-link" data-toggle="modal" data-target="#exampleModal"
+                                data-vinculo="Diretoria da Cozinha" data-texto="Sou Master das culinárias do Mandacaru Hackerspace. Faço um ótimo arroz com calabresa, mas esqueço na geladeira por uma semana." data-nome="Marcelo Bião"
+                                data-imagem=assets/palestrantes/marcelo.png>
+                                <div class="card mb-2" style="width: 100%">
+                                    <img class="card-img-top" src="assets/palestrantes/marcelo.png" alt="Marcelo Bião"
+                                        style="height: 100%;">
+                                    <div class="card-body">
+                                        <h3 class="card-title text-center">Marcelo Bião</h3>
+                                        <p class="card-subtitle text-center"> Diretoria da Cozinha </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        
+
+                        
+                        
+
+                        <div class="col-md-3">
+                            <a class="card-link" data-toggle="modal" data-target="#exampleModal"
+                                data-vinculo="Diretoria dos Armengues" data-texto="Sou Master dos paranauês do Mandacaru Hackerspace. De vez em quando, eu esqueço de enviar a arte dos eventos." data-nome="Sérgio Matos"
+                                data-imagem=assets/palestrantes/sergio.png>
+                                <div class="card mb-2" style="width: 100%">
+                                    <img class="card-img-top" src="assets/palestrantes/sergio.png" alt="Sérgio Matos"
+                                        style="height: 100%;">
+                                    <div class="card-body">
+                                        <h3 class="card-title text-center">Sérgio Matos</h3>
+                                        <p class="card-subtitle text-center"> Diretoria dos Armengues </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        
+
+                        
+                        
+
+                        <div class="col-md-3">
+                            <a class="card-link" data-toggle="modal" data-target="#exampleModal"
+                                data-vinculo="Diretoria de Marketing" data-texto="Sou Master of Cards do Mandacaru Hackerspace. Comi uma pizza de 3 queijos, fui procurar o banheiro e acabei parando em Uberlândia." data-nome="Vitor Cardim"
+                                data-imagem=assets/palestrantes/vitor.png>
+                                <div class="card mb-2" style="width: 100%">
+                                    <img class="card-img-top" src="assets/palestrantes/vitor.png" alt="Vitor Cardim"
+                                        style="height: 100%;">
+                                    <div class="card-body">
+                                        <h3 class="card-title text-center">Vitor Cardim</h3>
+                                        <p class="card-subtitle text-center"> Diretoria de Marketing </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        
+
+                        
+                        
+
+                        <div class="col-md-3">
+                            <a class="card-link" data-toggle="modal" data-target="#exampleModal"
+                                data-vinculo="Diretoria de Apoios" data-texto="Sou Master arteiro do Mandacaru Hackerspace. Sou o maior nome representante do terraplanismo no globo." data-nome="Leo Melo"
+                                data-imagem=assets/palestrantes/leonardo.png>
+                                <div class="card mb-2" style="width: 100%">
+                                    <img class="card-img-top" src="assets/palestrantes/leonardo.png" alt="Leo Melo"
+                                        style="height: 100%;">
+                                    <div class="card-body">
+                                        <h3 class="card-title text-center">Leo Melo</h3>
+                                        <p class="card-subtitle text-center"> Diretoria de Apoios </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        
+
+                        
+                        
+
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        
+
+                        <div class="col-md-3">
+                            <a class="card-link" data-toggle="modal" data-target="#exampleModal"
+                                data-vinculo="Presidente" data-texto="Sou CEO do Mandacaru Hackerspace. Procuro meios de invadir a conta do telegram do Ministro da Justiça. Fogo nos racistas!" data-nome="Fábio Bispo"
+                                data-imagem=assets/palestrantes/fabio.png>
+                                <div class="card mb-2" style="width: 100%">
+                                    <img class="card-img-top" src="assets/palestrantes/fabio.png" alt="Fábio Bispo"
+                                        style="height: 100%;">
+                                    <div class="card-body">
+                                        <h3 class="card-title text-center">Fábio Bispo</h3>
+                                        <p class="card-subtitle text-center"> Presidente </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+
+                        
+
+                        
+
+                    </div>
+                </div>
+
+            </div>
+            <!--/.Slides-->
+            
+        </div>
+        <!--/.Carousel Wrapper-->
+    </div>
+</div>
+  </section>
+
+  <section class="mr-5 ml-5 " id="apoio">
+    <br>
+    <h1 style="text-align: center">Empresas Juniores</h1>
+
+
+<div class="user">
+  
+
+  
+  
+  <div class="tech">
+    <a href="https://www.instagram.com/mandacaruhs/" target="_blank">
+    <img class="card-img-top" src="assets/apoio/LogoVer.png" alt="Mandacaru Hackerspace" style="max-height: 300px; max-width: 300px ">
+    </a>
+  </div>
+  
+  
+  
+  <div class="tech">
+    <a href="https://www.instagram.com/mandacaruhs/" target="_blank">
+    <img class="card-img-top" src="assets/apoio/LogoVer.png" alt="Mandacaru Hackerspace" style="max-height: 300px; max-width: 300px ">
+    </a>
+  </div>
+  
+  
+  
+  <div class="tech">
+    <a href="https://www.instagram.com/mandacaruhs/" target="_blank">
+    <img class="card-img-top" src="assets/apoio/LogoVer.png" alt="Mandacaru Hackerspace" style="max-height: 300px; max-width: 300px ">
+    </a>
+  </div>
+  
+  
+</div>
+  </section>
+  
+  <section id="contato">
+    <br>
+    <div style=" margin-bottom: -90px ;background-image: url(assets/background2.png)">
+  <h1 class="text-center text-light">Contato</h1>
+  <div class="header-icons">
+    <a aria-label="Send email" href="gdgfsaba@gmail.com"><i class="icon fa fa-envelope"></i></a>
+    <a aria-label="My Instagram" target="_blank" href="https://www.instagram.com/gdgfsaba/?hl=pt"><i class="icon fa fa-instagram"
+        aria-hidden="true"></i></a>
+    <a aria-label="My Facebook" target="_blank" href="https://www.facebook.com/gdgfsaba/"><i class="icon fa fa-facebook"
+        aria-hidden="true"></i></a>
+  </div>
+  <br>
+  <br>
+</div>
+  </section>
+
+  <footer class="footer" style="background-color: rgb(183, 204, 234)">
+    <!-- <p>&copy; </p> -->
+    <p>Build with Jekyll and <span class="love">❤</span> by Leo Melo</p>
+
+</footer>
+<script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="./assets/js/sweet-scroll.min.js"></script>
+<script src="./assets/js/main.js"></script>
+<!-- Google Analytics -->
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', '', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+</body>
+
+</html>
