@@ -39,6 +39,30 @@ apoio:
     imagem: assets/apoio/LogoVer.png
     link: https://www.instagram.com/mandacaruhs/
 
+# Parceiros
+parceiros:
+  - us:
+    nome: Marcelo Bião
+    imagem: assets/palestrantes/marcelo.png
+    link: https://www.instagram.com/mandacaruhs/
+  - us:
+    nome: Sérgio Matos
+    imagem: assets/palestrantes/sergio.png
+    link: https://www.instagram.com/mandacaruhs/
+  - us:
+    nome: Vitor Cardim
+    imagem: assets/palestrantes/vitor.png
+    link: https://www.instagram.com/mandacaruhs/
+  - us:
+    nome: Leo Melo
+    imagem: assets/palestrantes/leonardo.png
+    link: https://www.instagram.com/mandacaruhs/
+  - us:
+    nome: Fábio Bispo
+    imagem: assets/palestrantes/fabio.png
+    link: https://www.instagram.com/mandacaruhs/
+  
+
 # Diretores
 diretores:
   - us:
