@@ -2,14 +2,14 @@
 
 
 <h1 style="text-align: center">Parceiros</h1>
-<div style="background-image: url({{site.imagem_conteudo}});background-attachment: fixed;">
+<div style="background-image: url({{site.imagem}});background-attachment: fixed">
 
 
     <br>
     <div class="container">
 
 
-        <div id="multi-item-example2" class="carousel slide carousel-multi-item" data-ride="carousel">
+        <div id="multi-item-example2" class="carousel slide carousel-multi-item" data-ride="carousel" style="min-height: 300px">
 
             <!--Controls-->
             <a class="carousel-control-prev" href="#multi-item-example2" role="button" data-slide="prev"
@@ -41,7 +41,7 @@
                     <div class="row justify-content-center">
                         {% endif %}
 
-                        <div class="col-md-4">
+                        <div class="col-6 col-md-4 mt-2">
                             <a class="card-link" href="{{i.link}}">
                                 <div style="width: 100%">
                                     <img class="card-img-top" src="{{ i.imagem }}" alt="{{i.nome}}"

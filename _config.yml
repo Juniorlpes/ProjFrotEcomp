@@ -10,8 +10,8 @@ descricao: NEJ Feira de Sanatana
 user_title:
 
 imagem: assets/background.png
-imagem_logo: assets/logoicone.png
-imagem_conteudo: assets/background2.png
+imagem_logo: assets/logo.png
+imagem_nav: assets/logoicone.png
 imagem_favicon: assets/favicon.png
 
 contato_email: nejfeira.dex@gmail.com
